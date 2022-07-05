@@ -314,6 +314,63 @@ img {
 
 
 /* SECTION-3 */
+.section-3 {
+    line-height: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+.section-3 h4 {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-3 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9792E4;
+    margin-bottom: 2.5rem;
+}
+
+.section-3 p {
+    margin-bottom: 2.5rem;
+}
+
+.section-3 .row {
+    border-radius: 2rem;
+    background-color: #9792E4;
+    color: white;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.section-3 .row .col-sx {
+    padding: 1.5rem 0.5rem 3rem;
+    width: calc(100% / 5);
+}
+
+.section-3 .row .col-sx img{
+    border-radius: 50%;
+    height: 100%;
+}
+
+.section-3 .row .col-dx {
+    padding: 4.5rem 3.5rem;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.section-3 .row .col-dx address {
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* MEDIA QUERY SECTION 3 */
+
 
 
 
