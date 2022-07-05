@@ -38,6 +38,13 @@ img {
     padding: 0.6rem;
 }
 
+.button-violet {
+    background-color: #9792E4;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+}
+
 
 /* HEADER */
 .header {
@@ -446,13 +453,6 @@ img {
     margin-bottom: 1.4rem;
 }
 
-.section-4 .button {
-    background-color: #9792E4;
-    color: white;
-    font-weight: bold;
-    padding: 0.5rem 3rem;
-}
-
 
 /* MEDIA QUERY SECTION-4 */
 /* Tablet */
@@ -462,14 +462,85 @@ img {
     }
 }
 
-
-
 /* Mobile */
 @media screen and (max-width: 375px) {
     .section-4 .card {
         width: calc(100% / 1);
     }
 }
+
+
+/* SECTION 5 */
+.section-5 {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    line-height: 2rem;
+}
+
+.section-5 .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.section-5 .col-sx h2 {
+    font-size: 4rem;
+    color: #9792E4;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-5 .col-sx .primo-p {
+    margin-bottom: 4.5rem;
+}
+
+.section-5 .col-dx img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.section-5 .col-dx h3 {
+    font-size: 1.5rem;
+    color: #9792E4;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.section-5 .col-dx .button-violet {
+    padding: 0.5rem;
+    margin-bottom: 8rem;
+}
+
+.section-5 .col-dx a {
+    display: inline-block;
+}
+
+.section-5 .row {
+    gap: 1rem;
+}
+
+.section-5 .col-dx {
+    width: calc((100% - 1rem) / 4);
+    position: relative;
+}
+
+.section-5 .col-sx {
+    flex-basis: 0;
+    flex-grow: 1;
+    align-self: end;
+    padding-right: 8rem;
+}
+
+.section-5 .col-dx .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: #9792E4;
+    font-size: 5rem;
+}
+
+
+
 
 
 
