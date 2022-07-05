@@ -114,7 +114,7 @@ img {
     margin-bottom: 1.8rem;
 }
 
-.col > a {
+.section-1 .col > a {
     color: white;
     background-color: #0084FD;
     padding: 10px 40px;
@@ -401,6 +401,61 @@ img {
         padding-bottom:0;
     }
 }
+
+
+/* SECTION-4 */
+.section-4 {
+    line-height: 2rem;
+    padding: 3.5rem 0;
+    background-color: #9792E4;
+}
+
+.section-4 h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.section-4 .row {
+    gap: 3rem;
+}
+
+.section-4 .card {
+    padding: 4rem 2rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    width: calc((100% - 6rem) / 3);
+}
+
+
+.section-4 h3 {
+    font-size: 4.5rem;
+    color: #9792E4;
+    margin-bottom: 2rem;
+}
+
+.section-4 h4 {
+    font-size: 1.5rem;
+    color: #9792E4;
+    margin-bottom: 1.25rem;
+}
+
+.section-4 p {
+    margin-bottom: 1.4rem;
+}
+
+.section-4 .button {
+    background-color: #9792E4;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+}
+
+
+
+
 
 
 
