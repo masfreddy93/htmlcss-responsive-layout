@@ -65,11 +65,12 @@ img {
 
 .header-first-row i {
     display: none;
+    cursor: pointer;
 }
 
 /* MEDIA QUERY HEADER */
 /* tablet */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 376px) and (max-width: 810px) {
     .header-list {
         display: none;
     }
@@ -80,7 +81,7 @@ img {
 } 
 
 /* mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
     .header-list {
         display: none;
     }
@@ -170,7 +171,7 @@ img {
 
 /* MEDIA QUERY SECTION-1 */
 /* Tablet */
-@media screen and (min-width: 577px) and (max-width: 768px){
+@media screen and (min-width: 376px) and (max-width: 810px){
     .row-col-6 {
         flex-direction: column;
     }    
@@ -180,7 +181,7 @@ img {
 }
 
 /* Mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
     .row-col-6 {
         flex-direction: column;
     }    
@@ -276,7 +277,7 @@ img {
 
 /* MEDIA QUERY SECTION-2 */
 /* Tablet */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 376px) and (max-width: 810px) {
     .section-2 .row {
         flex-direction: column;
     }
@@ -291,7 +292,7 @@ img {
 }
 
 /* Mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
     .section-2 .row {
         flex-direction: column;
     }
@@ -342,18 +343,20 @@ img {
     background-color: #9792E4;
     color: white;
     flex-wrap: nowrap;
+    align-items: center;
     margin-bottom: 2rem;
     text-align: left;
 }
 
 .section-3 .row .col-sx {
     padding: 1.5rem 0.5rem 3rem;
-    width: calc(100% / 5);
+    /* width: calc(100% / 5); */
 }
 
 .section-3 .row .col-sx img{
     border-radius: 50%;
-    height: 100%;
+    height: 200px;
+    width: 200px;
 }
 
 .section-3 .row .col-dx {
@@ -371,6 +374,33 @@ img {
 
 /* MEDIA QUERY SECTION 3 */
 
+@media screen and (min-width: 376px) and (max-width: 810px) {
+
+    .section-3 .row .col-dx {
+        padding: 1rem;
+    }
+
+    .section-3 .row .col-sx {
+        padding-bottom:0;
+    }
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+    .section-3 .row {
+        flex-direction: column;
+    }
+
+    .section-3 .row .col-dx {
+        padding: 1rem;
+    }
+
+    .section-3 .row .col-sx {
+        padding-bottom:0;
+    }
+}
 
 
 
