@@ -373,7 +373,7 @@ img {
 
 
 /* MEDIA QUERY SECTION 3 */
-
+/* Tablet */
 @media screen and (min-width: 376px) and (max-width: 810px) {
 
     .section-3 .row .col-dx {
@@ -452,6 +452,27 @@ img {
     font-weight: bold;
     padding: 0.5rem 3rem;
 }
+
+
+/* MEDIA QUERY SECTION-4 */
+/* Tablet */
+@media screen and (min-width: 376px) and (max-width: 810px) {
+    .section-4 .card {
+        width: calc((100% - 3rem) / 2);
+    }
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+    .section-4 .card {
+        width: calc(100% / 1);
+    }
+}
+
+
+/* SECTION-5 */
 
 
 
