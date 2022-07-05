@@ -20,12 +20,17 @@ img {
     flex-wrap: wrap;
 }
 
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 2rem;
 
+}
+
+.container-small {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .button {
@@ -194,6 +199,80 @@ img {
 }
 
 
+/* SECTION 2 */
+.section-2 {
+    background-color: #9792E4;
+    padding-top: 6.5rem;
+    padding-bottom: 4rem;
+}
+
+.section-2 .row {
+    gap: 50px;
+}
+
+.section-2 .col-6 {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.section-2 .col {
+    border-radius: 30px;
+}
+
+.section-2 .col-6-sx {
+    color: white;
+}
+
+.section-2 .col-6-sx img {
+    margin-bottom: 8rem;
+}
+
+.section-2 .col-6-sx h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 3.8rem;
+}
+
+.section-2 .col-6-sx p{
+    line-height: 2rem;
+}
+
+.section-2 .col-6-dx {
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    align-self: flex-end;
+}
+
+.section-2 .col-6-dx img {
+    margin-bottom: 2rem;
+    max-width: 50%;
+}
+
+.section-2 .col-6-dx h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.section-2 .col-6-dx p{
+    line-height: 2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.section-2 .circle {
+    width: 3rem;
+    height: 3rem;
+    background-color: #9792E4;
+    color: currentColor;
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
 
 
 
