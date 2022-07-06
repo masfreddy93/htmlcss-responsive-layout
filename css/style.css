@@ -677,10 +677,28 @@ footer address {
 }
 
 
-/* DEBUG */
-.debug * {
-    border: 2px solid red;
+/* MEDIA-QUERY FOOTER */
+/* Tablet */
+@media screen and (min-width: 376px) and (max-width: 810px) {
+    footer .container {
+        padding: 0 8rem;
+    }
 }
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+    footer .container {
+        padding: 0 2rem;
+    }
+}
+
+
+
+
+/* DEBUG */
+/* .debug * {
+    border: 2px solid red;
+} */
 
 
 
