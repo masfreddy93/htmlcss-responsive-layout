@@ -487,6 +487,7 @@ img {
     color: #9792E4;
     font-weight: bold;
     margin-bottom: 1rem;
+    line-height: 4rem;
 }
 
 .section-5 .col-sx .primo-p {
@@ -496,7 +497,7 @@ img {
 .section-5 .col-dx img {
     border-radius: 50%;
     width: 250px;
-    height: 250px;
+    /* height: 250px; */
 }
 
 .section-5 .col-dx h3 {
@@ -534,11 +535,44 @@ img {
 .section-5 .col-dx .fa-quote-left {
     position: absolute;
     top: 0;
-    right: 1rem;
+    right: 0;
     color: #9792E4;
     font-size: 5rem;
 }
 
+
+/* MEDIA-QUERY SECTION-5 */
+/* Tablet */
+@media screen and (min-width: 376px) and (max-width: 810px) {
+    .section-5 .col-dx {
+        width: calc((100% - 1rem) / 3);
+    }
+    .section-5 .col-sx {
+        padding-right: 2rem;
+    }
+    .section-5 .col-sx h2 {
+        margin-bottom: 4.5rem;
+    }
+    .section-5 .col-dx .fa-quote-left {
+        font-size: 4rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+    .section-5 .col-dx {
+        width: 100%;
+    }
+    .section-5 .col-sx {
+        padding-right: 2rem;
+    }
+    .section-5 .col-sx h2 {
+        margin-bottom: 4.5rem;
+    }
+    .section-5 .col-dx .fa-quote-left {
+        font-size: 4rem;
+    }
+}
 
 
 
