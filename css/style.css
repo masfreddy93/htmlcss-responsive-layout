@@ -649,7 +649,32 @@ img {
 }
 
 
+/* FOOTER */
+footer {
+    line-height: 1.5rem;
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
 
+footer .container {
+    padding: 0 27rem;
+}
+
+footer p {
+    margin-bottom: 5rem;
+}
+
+footer address a {
+    text-decoration-line: underline;
+    text-decoration-color: #0084FD;
+    background-color: #0084FD;
+}
+
+footer address {
+    font-style: normal;
+}
 
 
 /* DEBUG */
