@@ -632,6 +632,26 @@ img {
     text-decoration-line: underline;
 }
 
+
+/* MEDIA-QUERY SECTION-6 */
+/* Tablet */
+@media screen and (min-width: 376px) and (max-width: 810px) {
+    .section-6 .container {
+        padding: 0 4rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+    .section-6 .container {
+        padding: 0 2rem;
+    }
+}
+
+
+
+
+
 /* DEBUG */
 .debug * {
     border: 2px solid red;
